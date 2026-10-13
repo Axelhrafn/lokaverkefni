@@ -132,7 +132,6 @@ audio {
 }
 
 footer {
-  text-align: center;
   padding: 25px 20px;
   background-color: #1b1f17;
   border-top: 3px solid #6b8a3a;
@@ -144,8 +143,37 @@ footer h2 {
   margin-top: 0;
 }
 
+.footer-dalkar {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-dalkur p {
+  margin: 4px 0;
+}
+
+.tenglar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tenglar li {
+  margin: 4px 0;
+}
+
+.tenglar a {
+  color: #d9e8b0;
+}
+
 footer .copyright {
   margin-top: 15px;
   font-size: 0.85rem;
   color: #8a9480;
+  text-align: center;
 }
