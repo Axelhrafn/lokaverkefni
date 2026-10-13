@@ -67,6 +67,15 @@ main {
   padding-bottom: 8px;
 }
 
+.kassi h3 {
+  color: #cfe0a8;
+  margin: 20px 0 6px;
+}
+
+.kassi h3:first-of-type {
+  margin-top: 10px;
+}
+
 #mynd {
   text-align: center;
   margin: 30px 0;
